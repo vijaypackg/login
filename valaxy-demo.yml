@@ -2,5 +2,5 @@
 - hosts: all
   become: true
   tasks:
-    -name: creating a docker container
-     shell: docker run -d -p 8090:8080 --name valaxy-demo  vijaypackg/myimage1:1.0
+    - name: creating a docker container
+      shell: docker run -d -p 8090:8080 --name valaxy-demo  vijaypackg/myimage1:1.0
